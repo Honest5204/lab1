@@ -1,0 +1,26 @@
+<!-- res/layout/dialog_add_user.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUpdatedName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên" />
+
+    <EditText
+        android:id="@+id/etUpdatedEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/etUpdatedPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại" />
+
+</LinearLayout>
